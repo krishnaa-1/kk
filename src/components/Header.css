@@ -1,0 +1,94 @@
+/* Original CSS from the first style block */
+.name-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.name-box span {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.text-muted,
+.text-primary,
+.text-info {
+    margin-top: 0.25rem;
+}
+
+.notifications-date {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.note-background {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Original CSS from the second style block */
+/* General container styling */
+.notifications-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for alignment */
+.notifications-desc {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.fas.fa-user-circle {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+/* Typography improvements */
+.text-black-50 {
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+.notifications-date {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    color: #343a40;
+}
+
+/* Date styling */
+.notifications-date span {
+    font-style: italic;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .notifications-item {
+        padding: 1.5rem 1rem;
+    }
+
+    .fas.fa-user-circle {
+        font-size: 1rem;
+    }
+
+    .text-black-50 {
+        font-size: 0.8rem;
+    }
+
+    .notifications-date {
+        font-size: 0.75rem;
+    }
+}
